@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;;
+}
+header{
+    background: #f4f2f0;
+}
+.header-menu .navbar>a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-shadow: 0px -1px #000;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.header-menu .navbar a span{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+.header-menu .collapse .nav-item{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* header-menu design finish here */
+ /* hero section area dsign from here */
+ .hero{
+    text-transform: ;
+ }
+.hero #img img{
+    width: 100%;
+}
+ .hero:after{
+     content:'';
+     display: block;
+     clear: both;
+ }
+.hero #text h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+.hero #text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #333;
+}
+.hero #text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #777777;
+}
+/* hero section area finish here */
+
+/* service area design start from here */
+.service{
+    background: #fafafa;
+    position: relative;
+}
+.service .shadow {
+    position: absolute;
+    top: 50px;
+    left:0;
+    right:0;
+    opacity: 0.1;
+}
+.service .shadow h1{
+    font-size: 60px;
+}
+.service .top h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    z-index: 100;
+}
+.service .details .icon a{
+    font-size: 55px;
+    color: #1769ff;
+}
+.service .details .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+.service .details .text hr{
+    width: 45px;
+    height: 2px;
+    background: #1769ff;
+}
+.service .details .text P{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.service .details #hover{
+    transition-duration: 0.1s;
+}
+.service .details #hover:hover, 
+.service .details #hover:hover a,
+.service .details #hover:hover h3,
+.service .details #hover:hover p
+{
+    border-radius: 10px;
+    background: #1769ff;
+    color: white;
+}
+.service .details #hover:hover hr{
+    background: white;
+}
+/* portfolio area style start from here */
+.portfolio{
+    background: #f4f4f4;
+    position: relative;
+}
+.portfolio .shadow {
+    position: absolute;
+    top:35px;
+    left:0;
+    right:0;
+    opacity: 0.1;
+}
+.portfolio .shadow h1{
+    font-size: 60px;
+}
+.portfolio .top h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    z-index: 100;
+}
+.portfolio .row .img img{
+    width: 100%;
+}
+.portfolio .row .text{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%);
+    position: relative;
+}
+.portfolio .row .text .dteatls{
+    position: absolute;
+    top:32%;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.portfolio .row .text .dteatls h4{
+    font-size: 30px;
+}
+.portfolio .row .text .dteatls hr{
+    width: 50px;
+    height: 3px;
+    background: white;
+}
+/* portfolio area style end from here */
+/* hire area design start here */
+.hire{
+    background: #fafafa;
+}
+.hire h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    font-size: 34px;
+}
+.hire p{
+    font-family: 'Raleway', sans-serif;
+    color:#777777;
+    font-size: 16px;
+}
+/* hire area design finish here */
+/* feedback area design start from here */
+.feedback{
+    background: #f4f4f4;
+}
+.slick-dots li.slick-active button:before {
+border: 2px solid #1769ff;
+border-radius: 50%;
+}
+.feedback .details h1{
+    color:#0a0b0c;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.feedback .details h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #0a0b0c;
+    font-size: 17px;
+}
+.feedback .details h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.feedback .details p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    width: 80%;
+    margin: auto;
+}
+/* feedback area style finish here */
+/* footer area design start from here */
+footer .footer-nav ul li .input input{
+    font-size: 25px;
+    line-height: inherit;
+}
+footer .footer-nav ul li .input{
+    position: relative;
+}
+footer .footer-nav ul li .input a {
+    position: absolute;
+    top: 21%;
+    right: 6%;
+}
+footer .social-icon ul li{
+margin: 5px
+}
+footer .social-icon ul li a{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+footer .social-icon ul li a i{
+    padding-left:8px;
+}

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clear{
+    content:'';
+    display: block;
+    clear: both;
+}
+header nav{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 100;
+}
+header nav .navbar-nav .nav-item .nav-link{
+    color:  white;
+    transition-duration: 0.5s;
+    font-size: 18px;
+}
+header nav .navbar-nav .nav-item .nav-link:hover{
+    color: #87d37c;
+}
+/* header area finish here */
+
+/* slider area design finish here */
+/* about area design start */
+.about .about-top h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #040404;
+}
+.about .about-top p{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* about grid start */
+.about .grid .icon a{
+    color: #030303;
+    font-size: 65px;
+    transition-duration: 0.5s;
+}
+.about .grid #book{
+    transform: skewY(10deg);
+}
+.about .grid h3{
+    font-size: 24px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    transition-duration: 0.1s;
+}
+.about .grid P{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.about .grid:hover a, .about .grid:hover h3{
+    color: #87d37c;
+}
+/* about area design finish */
+/* service section design start */
+.services{
+    background: #e1e1e1;
+}
+.services .service-top h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #040404;
+}
+.services .service-top p{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* service-top area design finish */
+/* serivce grid start */
+.services #img {
+    position: relative;
+}
+.services .hover-effect{
+    position: absolute;
+    top:0;
+}
+.services .hover-effect .icon{
+    position: absolute;
+    top: 100px;
+    right:0;
+    left:30%;
+}
+.services .hover-effect .face{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.services .hover-effect .face:hover{
+    background: #87d37c;
+    border-color: #87d37c;
+}
+.services .hover-effect{
+    width: 270px;
+    height:243px;
+    display: none;
+}
+.services .hover-effect .face a{
+    font-size: 30px;
+    color: #fff;
+}
+.services .col-xl-3:hover> .hover-effect{
+    display: block;
+    background: rgba(106, 109, 112, 0.5);
+}
+/* service area design finish here */
+
+/* portfolio area desighn start from here */
+.portfolio{
+    background: #fdfafa;
+}
+.portfolio .portfolio-top h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #040404;
+}
+.portfolio .portfolio-top p{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* service-top area design finish */
+.portfolio .designer{
+    width: 75%;
+}
+.portfolio .designer ul li{
+    background: #000;
+    transition: 0.5s;
+}
+.portfolio .designer ul li a{
+    font-family: 'Lato', sans-serif;
+}
+.portfolio .designer ul li:hover{
+    background: #87d37c;
+}
+.portfolio .img img{
+    width: 100%;
+    position: relative;
+}
+.portfolio .img .overlay{
+    width: 350px;
+    height: 100%;
+    background-color: rgba(12, 12, 15, 0.3);
+    position: absolute;
+    top:0;
+    display: none;
+}
+.portfolio .img #img:hover> .overlay{
+    display: block;
+}
+.portfolio .img .overlay h1{
+    position: absolute;
+    top: 43%;
+    right:0;
+    left:0;
+    margin: auto;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    color: #99cc66;
+}
+/* pricing area design start from here */
+.pricing{
+    background: #fdfafa;
+}
+.pricing .pricing-top h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #040404;
+}
+.pricing .pricing-top p{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* prices area design start  */
+.prices .pr .blank{
+    height: 25px;
+}
+.prices .pr{
+    background: #39393a;
+    transition-duration: 0.5s;
+}
+.prices .pr .basic{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid #fff;  
+    transition-duration: 0.5s;
+}
+.prices .pr:hover{
+    background: #87d37c;
+}
+.prices .pr:hover> .basic{
+    background: white;
+
+}
+.prices .pr:hover> .basic> .text{
+    color: #87d37c;
+}
+.prices .pr .basic .text{
+    position: absolute;
+    top: 19%;
+    left: 21%;
+    color:#fff;
+}
+.prices .pr .basic .text h3{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.prices .pr .basic .text h3 span{
+    font-size: 18px;
+    vertical-align: top;
+}
+.prices .details h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.prices .details hr {
+    width: 70%;
+}
